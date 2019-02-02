@@ -1,0 +1,31 @@
+{
+	"variables": [],
+	"info": {
+		"name": "cancer prediction",
+		"_postman_id": "af9a3341-f4a7-d1e2-f07c-09fc8f086c99",
+		"description": "",
+		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "post_request_example",
+			"request": {
+				"url": "http://localhost:8080/predict",
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"description": ""
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\t\"age\": 35,\n\t\"partners\": 5,\n\t\"intercourse\": 11,\n\t\"pregnancies\": 2,\n\t\"smokes\": 15,\n\t\"smokePacks\": 15,\n\t\"contraceptives\": 14,\n\t\"iud\": 0,\n\t\"stds\": 0,\n\t\"stdsNum\": 0,\n\t\"condyl\": 0,\n\t\"vCondyl\": 0,\n\t\"pid\": 0,\n\t\"hiv\": 0,\n\t\"cCondyl\": 0,\n\t\"vpc\": 0,\n\t\"gHerpes\": 0,\n\t\"hepB\": 0,\n\t\"syphilis\": 0,\n\t\"molCont\": 0,\n\t\"hpv\": 0,\n\t\"aids\": 0\n}"
+				},
+				"description": ""
+			},
+			"response": []
+		}
+	]
+}
