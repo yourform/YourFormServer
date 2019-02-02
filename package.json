@@ -1,0 +1,31 @@
+{
+  "name": "cancer_prediction",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "googleapis": "^37.1.0"
+  },
+  "devDependencies": {
+    "eslint": "^5.13.0",
+    "eslint-config-standard": "^12.0.0",
+    "eslint-plugin-import": "^2.16.0",
+    "eslint-plugin-node": "^8.0.1",
+    "eslint-plugin-promise": "^4.0.1",
+    "eslint-plugin-standard": "^4.0.0"
+  },
+  "scripts": {
+    "start": "node src/index",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kamilla1201/cancer_prediction.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kamilla1201/cancer_prediction/issues"
+  },
+  "homepage": "https://github.com/kamilla1201/cancer_prediction#readme"
+}
